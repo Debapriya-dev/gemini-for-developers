@@ -1,0 +1,31 @@
+{
+  "name": "gemini-for-developers",
+  "version": "1.0.0",
+  "description": "build a node js application with gemini assistant",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
+  },
+  "scripts": {
+    "test": "jest --verbose",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Debapriya-dev/gemini-for-developers.git"
+  },
+  "author": "Debapriya Basu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Debapriya-dev/gemini-for-developers/issues"
+  },
+  "homepage": "https://github.com/Debapriya-dev/gemini-for-developers#readme",
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
